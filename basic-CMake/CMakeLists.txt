@@ -1,12 +1,15 @@
-project(directory_test)
+# Gives the projects a name
+project(basic-test)
  
-#Bring the headers, such as Student.h into the project
+# Brings the headers, such as Student.h into the project
 include_directories(include)
+
+# There are two ways of adding source files
+# 1. Adding the files by name, such as seen below
+#set(SOURCES_FILES src/mainapp.cpp src/Student.cpp)
  
-#Can manually add the sources using the set command as follows:
-#set(SOURCES src/mainapp.cpp src/Student.cpp)
- 
-#However, the file(GLOB...) allows for wildcard additions:
-file(GLOB SOURCES "src/*.cpp")
- 
-add_executable(testStudent ${SOURCES})
+# 2. Add all files with the that ends with .cpp
+file(GLOB SOURCES_FILES "src/*.cpp")
+
+# Creates a binary using the source and header files
+add_executable(name-of-executable ${SOURCES_FILES})
