@@ -1,6 +1,6 @@
 # Cmake-cpp-samples
 
-How to build a CMake project:
+## How to build a CMake project:
 1. Open a terminal at in the build folder.
 2. Then enter:
 ```
@@ -8,10 +8,19 @@ cmake ..
 ```
 
 3. And then finally type: 
+
 ```
-"make"
+make
 ```
-4. If applicable, use: "sudo make install" (only for CMake-create-shared-library)
+
+4. If applicable, use: 
+
+```
+sudo make install
+``` 
+
+(only for CMake-create-shared-library)
+
 
 CMake-basic-example contains an example of basic usage of CMake.
 
