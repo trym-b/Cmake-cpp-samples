@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libcreate-shared-library.so -o libcreate-shared-library.so CMakeFiles/create-shared-library.dir/src/student.cpp.o 

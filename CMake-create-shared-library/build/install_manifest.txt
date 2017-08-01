@@ -1,0 +1,2 @@
+/usr/local/lib/create-shared-library/libcreate-shared-library.so
+/usr/local/include/create-shared-library/student.h

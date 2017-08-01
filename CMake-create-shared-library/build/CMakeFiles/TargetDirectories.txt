@@ -1,0 +1,7 @@
+/home/trymb/Utvikling/git/Cmake-cpp-samples/CMake-create-shared-library/build/CMakeFiles/rebuild_cache.dir
+/home/trymb/Utvikling/git/Cmake-cpp-samples/CMake-create-shared-library/build/CMakeFiles/install/strip.dir
+/home/trymb/Utvikling/git/Cmake-cpp-samples/CMake-create-shared-library/build/CMakeFiles/create-shared-library.dir
+/home/trymb/Utvikling/git/Cmake-cpp-samples/CMake-create-shared-library/build/CMakeFiles/install.dir
+/home/trymb/Utvikling/git/Cmake-cpp-samples/CMake-create-shared-library/build/CMakeFiles/install/local.dir
+/home/trymb/Utvikling/git/Cmake-cpp-samples/CMake-create-shared-library/build/CMakeFiles/list_install_components.dir
+/home/trymb/Utvikling/git/Cmake-cpp-samples/CMake-create-shared-library/build/CMakeFiles/edit_cache.dir

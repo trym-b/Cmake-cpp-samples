@@ -1,2 +1,5 @@
 # Cmake-cpp-samples
-A few samples of the use of CMake
+
+CMake-basic-example contains an example of basic usage of CMake
+
+CMake-create-shared-library shows you how to create a very simple basic library
