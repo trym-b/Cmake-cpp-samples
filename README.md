@@ -13,13 +13,13 @@ cmake ..
 make
 ```
 
-4. If applicable, use: 
+4. For installing files (for CMake-create-shared-library only), use: 
 
 ```
 sudo make install
 ``` 
 
-(only for CMake-create-shared-library)
+
 
 
 CMake-basic-example contains an example of basic usage of CMake.
