@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/src/main.cpp
+string
+-
+iostream
+-
+
+/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/src/student.cpp
+iostream
+-
+
