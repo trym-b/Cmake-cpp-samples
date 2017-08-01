@@ -1,3 +1,7 @@
+# Sets the required version. When creating a project, set the version 
+#to the installed version
+cmake_minimum_required(VERSION 3.5.1)
+
 # Gives the projects a name
 project(basic-test)
  

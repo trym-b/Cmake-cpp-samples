@@ -54,45 +54,45 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trymb/Utvikling/Orbbec/Cpp/cmake-test
+CMAKE_SOURCE_DIR = /home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build
+CMAKE_BINARY_DIR = /home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/testStudent.dir
+# Target rules for target CMakeFiles/name-of-executable.dir
 
 # All Build rule for target.
-CMakeFiles/testStudent.dir/all:
-	$(MAKE) -f CMakeFiles/testStudent.dir/build.make CMakeFiles/testStudent.dir/depend
-	$(MAKE) -f CMakeFiles/testStudent.dir/build.make CMakeFiles/testStudent.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build/CMakeFiles --progress-num=1,2,3 "Built target testStudent"
-.PHONY : CMakeFiles/testStudent.dir/all
+CMakeFiles/name-of-executable.dir/all:
+	$(MAKE) -f CMakeFiles/name-of-executable.dir/build.make CMakeFiles/name-of-executable.dir/depend
+	$(MAKE) -f CMakeFiles/name-of-executable.dir/build.make CMakeFiles/name-of-executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build/CMakeFiles --progress-num=1,2,3 "Built target name-of-executable"
+.PHONY : CMakeFiles/name-of-executable.dir/all
 
 # Include target in all.
-all: CMakeFiles/testStudent.dir/all
+all: CMakeFiles/name-of-executable.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/testStudent.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testStudent.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build/CMakeFiles 0
-.PHONY : CMakeFiles/testStudent.dir/rule
+CMakeFiles/name-of-executable.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/name-of-executable.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build/CMakeFiles 0
+.PHONY : CMakeFiles/name-of-executable.dir/rule
 
 # Convenience name for target.
-testStudent: CMakeFiles/testStudent.dir/rule
+name-of-executable: CMakeFiles/name-of-executable.dir/rule
 
-.PHONY : testStudent
-
-# clean rule for target.
-CMakeFiles/testStudent.dir/clean:
-	$(MAKE) -f CMakeFiles/testStudent.dir/build.make CMakeFiles/testStudent.dir/clean
-.PHONY : CMakeFiles/testStudent.dir/clean
+.PHONY : name-of-executable
 
 # clean rule for target.
-clean: CMakeFiles/testStudent.dir/clean
+CMakeFiles/name-of-executable.dir/clean:
+	$(MAKE) -f CMakeFiles/name-of-executable.dir/build.make CMakeFiles/name-of-executable.dir/clean
+.PHONY : CMakeFiles/name-of-executable.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/name-of-executable.dir/clean
 
 .PHONY : clean
 

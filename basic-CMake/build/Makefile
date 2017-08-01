@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trymb/Utvikling/Orbbec/Cpp/cmake-test
+CMAKE_SOURCE_DIR = /home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build
+CMAKE_BINARY_DIR = /home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build/CMakeFiles /home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build/CMakeFiles /home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,47 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named testStudent
+# Target rules for targets named name-of-executable
 
 # Build rule for target.
-testStudent: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testStudent
-.PHONY : testStudent
+name-of-executable: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 name-of-executable
+.PHONY : name-of-executable
 
 # fast build rule for target.
-testStudent/fast:
-	$(MAKE) -f CMakeFiles/testStudent.dir/build.make CMakeFiles/testStudent.dir/build
-.PHONY : testStudent/fast
+name-of-executable/fast:
+	$(MAKE) -f CMakeFiles/name-of-executable.dir/build.make CMakeFiles/name-of-executable.dir/build
+.PHONY : name-of-executable/fast
 
-# target to build an object file
-src/main.o:
-	$(MAKE) -f CMakeFiles/testStudent.dir/build.make CMakeFiles/testStudent.dir/src/main.o
+src/main.o: src/main.cpp.o
+
 .PHONY : src/main.o
 
-# target to preprocess a source file
-src/main.i:
-	$(MAKE) -f CMakeFiles/testStudent.dir/build.make CMakeFiles/testStudent.dir/src/main.i
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/name-of-executable.dir/build.make CMakeFiles/name-of-executable.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
 .PHONY : src/main.i
 
-# target to generate assembly for a file
-src/main.s:
-	$(MAKE) -f CMakeFiles/testStudent.dir/build.make CMakeFiles/testStudent.dir/src/main.s
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/name-of-executable.dir/build.make CMakeFiles/name-of-executable.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
 .PHONY : src/main.s
 
-# target to build an object file
-src/student.o:
-	$(MAKE) -f CMakeFiles/testStudent.dir/build.make CMakeFiles/testStudent.dir/src/student.o
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/name-of-executable.dir/build.make CMakeFiles/name-of-executable.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/student.o: src/student.cpp.o
+
 .PHONY : src/student.o
 
-# target to preprocess a source file
-src/student.i:
-	$(MAKE) -f CMakeFiles/testStudent.dir/build.make CMakeFiles/testStudent.dir/src/student.i
+# target to build an object file
+src/student.cpp.o:
+	$(MAKE) -f CMakeFiles/name-of-executable.dir/build.make CMakeFiles/name-of-executable.dir/src/student.cpp.o
+.PHONY : src/student.cpp.o
+
+src/student.i: src/student.cpp.i
+
 .PHONY : src/student.i
 
-# target to generate assembly for a file
-src/student.s:
-	$(MAKE) -f CMakeFiles/testStudent.dir/build.make CMakeFiles/testStudent.dir/src/student.s
+# target to preprocess a source file
+src/student.cpp.i:
+	$(MAKE) -f CMakeFiles/name-of-executable.dir/build.make CMakeFiles/name-of-executable.dir/src/student.cpp.i
+.PHONY : src/student.cpp.i
+
+src/student.s: src/student.cpp.s
+
 .PHONY : src/student.s
+
+# target to generate assembly for a file
+src/student.cpp.s:
+	$(MAKE) -f CMakeFiles/name-of-executable.dir/build.make CMakeFiles/name-of-executable.dir/src/student.cpp.s
+.PHONY : src/student.cpp.s
 
 # Help Target
 help:
@@ -159,9 +183,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... testStudent"
+	@echo "... name-of-executable"
+	@echo "... rebuild_cache"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

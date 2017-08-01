@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/src/main.cpp" "/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build/CMakeFiles/testStudent.dir/src/main.o"
-  "/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/src/student.cpp" "/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build/CMakeFiles/testStudent.dir/src/student.o"
+  "/home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/src/main.cpp" "/home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build/CMakeFiles/name-of-executable.dir/src/main.cpp.o"
+  "/home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/src/student.cpp" "/home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build/CMakeFiles/name-of-executable.dir/src/student.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

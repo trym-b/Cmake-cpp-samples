@@ -1,3 +1,3 @@
-/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build/CMakeFiles/rebuild_cache.dir
-/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build/CMakeFiles/edit_cache.dir
-/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/build/CMakeFiles/testStudent.dir
+/home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build/CMakeFiles/edit_cache.dir
+/home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build/CMakeFiles/name-of-executable.dir
+/home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/build/CMakeFiles/rebuild_cache.dir

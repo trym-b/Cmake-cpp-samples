@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/src/main.cpp
+/home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/src/main.cpp
 string
 -
 iostream
 -
 
-/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/src/student.cpp
+/home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/src/student.cpp
 iostream
 -
 

@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/trymb/Utvikling/Orbbec/Cpp/cmake-test/include 
+CXX_INCLUDES = -I/home/trymb/Utvikling/git/Cmake-cpp-samples/basic-CMake/include 
 

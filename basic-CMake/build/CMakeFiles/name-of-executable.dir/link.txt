@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/name-of-executable.dir/src/main.cpp.o CMakeFiles/name-of-executable.dir/src/student.cpp.o  -o name-of-executable 
