@@ -1,5 +1,7 @@
 # Cmake-cpp-samples
 
+This is a small repository shows how to create very simple CMake projects.
+
 ## How to build a CMake project:
 1. Open a terminal at in the build folder.
 2. Then enter:
