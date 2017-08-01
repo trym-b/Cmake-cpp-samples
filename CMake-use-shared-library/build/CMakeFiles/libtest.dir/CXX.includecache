@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/trymb/Utvikling/git/Cmake-cpp-samples/CMake-use-shared-library/libtest.cpp
+iostream
+-
+string
+-
+

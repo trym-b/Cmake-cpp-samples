@@ -28,11 +28,12 @@ add_library(${PROJECT_NAME} SHARED ${SOURCE_FILES})
 
 # To install the library, type sudo make install
 
-# Install the library, the default placement is /usr/lib
-# In this case a new folder will be created: /usr/lib/${PROJECT_NAME} 
+# Install the library, the default placement is /usr/local/lib
+# In this case a new folder will be created: /usr/local/lib/${PROJECT_NAME} 
 #and this folder will contain one lib${PROJECT_NAME}.so file
 #.so is a shared library file
 install(TARGETS ${PROJECT_NAME} DESTINATION lib/${PROJECT_NAME})
 
-# installs the header files in the same way as above
+# installs the header files in the same way as above, but target would 
+#be /usr/local/include
 install(FILES ${HEADER_FILES} DESTINATION include/${PROJECT_NAME})

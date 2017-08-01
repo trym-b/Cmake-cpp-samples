@@ -1,0 +1,3 @@
+/home/trymb/Utvikling/git/Cmake-cpp-samples/CMake-use-shared-library/build/CMakeFiles/edit_cache.dir
+/home/trymb/Utvikling/git/Cmake-cpp-samples/CMake-use-shared-library/build/CMakeFiles/libtest.dir
+/home/trymb/Utvikling/git/Cmake-cpp-samples/CMake-use-shared-library/build/CMakeFiles/rebuild_cache.dir

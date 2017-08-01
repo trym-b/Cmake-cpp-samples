@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/libtest.dir/libtest.cpp.o  -o libtest  -L/usr/local/lib/create-shared-library -lcreate-shared-library -Wl,-rpath,/usr/local/lib/create-shared-library 
